@@ -3,11 +3,11 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Modelo1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Ejercicio-de-Modelos" />
         <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Modelo1" />
+            <option value="$PROJECT_DIR$/Ejercicio-de-Modelos" />
           </set>
         </option>
       </GradleProjectSettings>

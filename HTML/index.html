@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div> 
+     <h1 id="seccion1">1. Estructura Básica del Documento HTML</h1><br> 
+    <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p><br>
+    </div>
+    <div>
+        <h1>
+            2. encabezados y propiedades del texto
+        </h1><br>
+        <h3>
+            <b>
+                Esto es un texto en negrita
+            </b>
+        </h3>
+        <h3 style="font-weight: normal;">
+            
+          <em>
+             Esto es un texto en cursiva
+          </em>
+            
+        </h3>
+        <h3 style="font-weight: normal;">
+            <u>
+                Esto es un texto subrayado
+            </u>
+        </h3><br>
+    </div>
+    <h1 id="seccion2">
+        3. Divisiones y Agrupación de Contenido
+    </h1><br>
+    <div>
+        <h3>
+            Sección 1
+        </h3>
+        <p>
+            Contenido de la primera sección agrupada en un div.
+        </p><br>
+    </div>
+    <div>
+        <h3>
+            Sección 2
+        </h3>
+        <p>
+            Contenido de la segunda sección agrupada en un div.
+        </p><br>
+    </div>
+    <div>
+        <h1>
+            4. Enlaces y Listas
+        </h1><br>
+        <p> Visita<a href="https://www.youtube.com/watch?v=hDd2G_V1rzc" target="_blank"> nuestro video</a> para más información</p><br>
+    
+    </div>
+    <h2>
+        Enlaces Internos
+    </h2><br>
+    <nav>
+        <ul>
+            <li><a href="#seccion1">Ir a la estructura</a></li>
+            <li><a href="#seccion2">Ir a las Divisiones y Agrupaciónes 2</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h2>
+            Lista desordenada:
+        </h2><br>
+        <ul>
+            <Li>Primer item de una lista desordenada</Li>
+            <li>Segundo ítem de una lista desordenada</li>
+        </ul><br>
+        <h2>
+            Lista ordenada:
+        </h2><br>
+        <ol>
+            <Li>Primer item de una lista ordenada</Li>
+            <Li>Segundo ítem de una lista ordenada</Li>
+        </ol><br>
+    </div>
+    <div>
+        <h2>5. elementos multimedia</h2><br>
+        <div> 
+            <img src="https://i.ytimg.com/vi/7jARVjblodI/sddefault.jpg" width="200px" height="200px" alt="Imagen descriptiva" /><br>
+        </div>
+        <div>
+            <video
+         src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+         width="200px"
+         height="200px"
+         controls><br>
+        </video>
+        </div><br>
+        <div>
+            <audio
+            src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+            controls>
+            </audio><br>
+        </div><br>
+        <h2>
+            6. Tablas
+        </h2>
+
+        <style>
+            table{
+                width: 50%;
+                border-collapse: collapse;
+            }
+            th,td{
+                border: 1px solid black;
+                padding: 6px;
+                text-align: center;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+            
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fila 1, celda 1</td>
+                    <td>Fila 1, celda 2</td>
+                </tr>
+                <tr>
+                    <td>Fila 2, celda 1</td>
+                    <td>Fila 2, celda 2</td>
+                </tr>
+
+            </tbody>
+        
+        </table>
+
+        <h2>
+            7. Formularios
+        </h2>
+        <div>
+            <form>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="ingrese su nombre">
+                </div><br>
+                <div>
+                    <label>Correo Electronico</label>
+                <input type="email" placeholder="example@example.com">
+                </div><br>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+                
+               
+            </form>
+
+
+        </div>
+        
+
+    </div>
+       
+     
+
+
+</body>
+</html>
